@@ -1,0 +1,66 @@
+.item_main_div {
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.item_main_div > p,
+.item_main_div > .div_quantity > p {
+  color: white;
+  font-size: large;
+  margin: 7px;
+}
+
+.item_separator_div {
+  padding: 1px;
+  margin: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+.mark_button {
+  margin: 10px;
+  border: 0px;
+
+  color: white;
+  font-size: small;
+}
+
+.mark_button:hover {
+  color: rgb(236, 209, 209);
+}
+
+.div_quantity {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.item_add_substract_button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  color: #dc6678;
+  font-size: larger;
+}
+
+.item_add_button {
+  background-color: #4bd256;
+}
+
+.item_add_button:hover {
+  background-color: #07cc18;
+}
+
+.item_substract_button {
+  background-color: #c51723;
+}
+
+.item_substract_button:hover {
+  background-color: #a3000b;
+}

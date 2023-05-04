@@ -1,0 +1,31 @@
+.list_main_div {
+    padding: 0 1rem;
+    min-width: 360px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item_p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.items_container {
+    overflow: auto;
+    padding-bottom: 44px;
+    max-height: 90%;
+    width: 100%;
+}
+
+.list_separator_div {
+    padding: 1px;
+    margin: 10px;
+    height:0px;
+    width: 100%;
+    background-color: black;
+  }
